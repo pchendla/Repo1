@@ -9,7 +9,7 @@ jobs:
       - name: Emit repository_dispatch
         uses: mvasigh/dispatch-action@main
         with:
-          token: ${{ secrets.PAT1 }}
+          token: ${{ secrets.KAT }}
           repo: Repo2
           owner: pchendla
           event_type: sample_push
